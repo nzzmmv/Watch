@@ -1,0 +1,219 @@
+.catalog{
+    padding-bottom: 103px;
+    h2{
+        color: #0D0D0D;
+        text-align: center;
+        font-family: MuseoModerno;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400; 
+        line-height: 45px; 
+        text-transform: uppercase;
+    }
+    &__tabs{
+        margin-top: 70px;
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 0;
+        padding-left: 0;
+    }
+    &__tab{
+        width: 220px;
+        height: 50px;
+        border: 2px solid #d0d0d0;
+
+        color: #6B6B6B;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 48px;
+        margin-top: 0 5px;
+        transform: skewX(-25deg);
+        cursor: pointer;
+        transition: 0.5s all;
+        &:hover{
+            box-shadow: 3px 3px 20px $main-color;
+            border: none;
+
+        }
+        div{
+            transform: skewX(25deg);
+        }
+        &_active{
+            color: #fff;
+            background-color: $main-color;
+        }
+    }
+    &__content{
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap; 
+  
+    }
+    &-item{
+        width: 303px;
+        min-height: 442px;
+        border: 2px solid #e8e8e8;
+        padding: 20px 20px 26px 20px;
+        overflow: hidden;
+        margin-bottom: 20px;
+        a{
+            display: block;
+            color: $main-color;
+            text-align: center;
+            font-size: 14px;
+            font-weight: 500;
+            &:hover{
+                color: $main-color;
+            }
+            
+        }
+        &__img
+        {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            height: 200px;
+        }
+        &__subtitle{
+            margin-top: 20px;
+            color: #0D0D0D;
+            text-align: center;
+            font-family: MuseoModerno;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        &__descr{
+            margin-top: 15px;
+            color: #0D0D0D;
+            text-align: center;
+            font-family: MuseoModerno;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+        }
+        &__link{
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            color: $main-color;
+            text-align: center;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 14px; 
+            &:hover{
+                color: $main-color;
+            }
+            
+        }
+        hr{
+            background-color: #e8e8e8;
+            margin-top: 19px;
+            margin-bottom: 21px;
+            border-bottom: none;
+        }
+        &__footer{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &__old-price{
+            color: #555;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 14px; 
+            text-decoration: line-through;
+
+        }
+        &__price{
+            color: #050505;
+            font-family: MuseoModerno;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 20px; 
+        }
+        &__btn{
+            width: 135px;
+            height: 44px;
+            background-color: $main-color;
+            color: #fff;
+            border-radius: 5px;
+            border: none;
+
+            color: #FFF;
+            text-align: center;
+            font-family: MuseoModerno;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            text-transform: uppercase;
+            &:hover{
+                background-color: #9f0a0a;
+            }
+        }
+        &__wrapper{
+            display: flex;
+            width: calc(200% + 40px);
+        }
+        &__content{
+
+           width: 50%; 
+           margin-right: 0px;
+           transform: translateX(-100%);
+           transition: 0.5s all;
+           
+           &_active {
+            transform: translateX(0%);
+            margin-right: 20px;
+           }
+        }
+        &__list{
+            position: relative;   
+            width: 50%;
+            margin-left: 20px;
+            transform: translateX(0%);
+            transition: 0.5s all;
+            padding-right: 20px;
+            padding-left: 19px;
+            margin-bottom: 0;
+            list-style-type: none;
+            &_active{
+                transform: translateX(-100%);
+                 margin-left: 0px;
+            }
+            li{
+                    position: relative;
+                    color: #555;
+                    font-family: MuseoModerno;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 300;
+                    line-height: 21px; /* 150% */
+                    margin-bottom: 20px;
+                    &:before{
+                        content: '';
+                        position: absolute;
+                        height: 5px;
+                        width: 5px;
+                        background-color: $main-color;
+                        left: -14px;
+                        top: 7px;
+                    }
+                }
+            }
+    }
+}   

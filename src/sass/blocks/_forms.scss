@@ -1,0 +1,21 @@
+.feed-form{
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    input{
+        width: 303px;
+        height: 54px;
+        background-color: #fff;
+        margin-bottom: 15px;
+        border: none;
+        color: #4B4B4B;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        padding: 0 20px;
+        &:nth-child(3){
+            margin-bottom: 20px;
+        }
+    }
+}

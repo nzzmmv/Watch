@@ -1,0 +1,49 @@
+.comment{
+    
+    height: 920px;
+
+    &__first{
+        margin-top: 60px;
+    }    &__two{
+        margin-top: 60px;
+    }&__three{
+        margin-top: 60px;
+    }
+
+   &__header{
+    color: #0D0D0D;
+    text-align: center;
+    font-family: MuseoModerno;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+   }
+   &__name{
+    color: #0D0D0D;
+    font-family: MuseoModerno;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 100% */
+    }
+    &__sub{
+        margin-top: 3px;
+        color: #646464;
+        font-family: MuseoModerno;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    &__descr{
+        color: #0D0D0D;
+        font-family: MuseoModerno;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 24px; /* 150% */
+    }
+
+}
+

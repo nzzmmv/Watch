@@ -1,0 +1,74 @@
+@media (max-width: 1200px){
+    .waiting{
+        &__icon{
+            font-size: 12px;
+        }
+    }
+}
+@media (max-width: 991px){
+    .promo{
+        // width:  fit-content;
+        &__header{
+            font-size: 39px;
+        }
+        &__subheader{
+            font-size: 21px;
+        }
+        &__promo{
+            width: 397px;
+        }
+        .button_main{
+            width: 250px;
+        }
+    }
+    .waiting{
+        &__header{
+            font-size: 26px;
+        }
+
+        &__icon{
+            font-size: 12px;
+        }
+    }
+}
+@media (max-width: 765px){
+    .promo{
+        width:  fit-content;
+        &__wrapper{
+            align-items: center;
+        }
+
+    }
+    .waiting{
+        height: 1050px;
+        &__icons{
+            display: flex;
+            flex-direction: column;
+
+        }
+    }
+}
+@media (max-width: 575px) {
+    .consultation{
+        padding: 40px 0 92px 0;
+        .feed-form{
+            justify-self: center;
+        }
+        .title{
+            text-align: center;
+            font-size: 26px;
+        }
+        &__descr{
+            font-size: 18px;
+            text-align: center;
+       }
+    }
+}
+@media (min-width: 250px) and (max-width: 950px) {
+    .promo {
+      width: fit-content;
+    }
+    .consultation{
+        width: fit-content;
+    }
+  }

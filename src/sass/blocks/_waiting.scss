@@ -1,0 +1,46 @@
+.waiting{
+    height: 473px;
+    padding: 21px 0 93px 0;
+    &__header{
+        color: #0D0D0D;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    &__icons{
+        margin-top: 65px;
+        display: flex;
+        justify-content: center;
+        gap: 150px;
+
+    }
+    &__icon{
+        color: #0D0D0D;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 300;
+        img{
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+        span{
+            color: #0D0D0D;
+            text-align: center;
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+    }
+    &__link{
+        color: #F00;
+        font-size: 14px;
+        font-weight: 300;
+        &:hover{
+            color: #F00;
+        }
+    }
+
+   
+}
